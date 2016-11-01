@@ -130,7 +130,7 @@
                 _title = a[@"title"];
                 _subtitle = a[@"subtitle"];
             }
-            else _title = a;
+            else _body = a;
         }
         else if(_rawPayload[@"os_data"][@"buttons"][@"m"]) {
             NSDictionary * m = _rawPayload[@"os_data"][@"buttons"][@"m"];
